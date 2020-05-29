@@ -125,61 +125,61 @@
     </EasyTutorial1>
     <Expansion>
         <IntroductionTitle>Расширение аэропорта</IntroductionTitle>
-        <Introduction>Welcome to the second easy difficulty tutorial.
+        <Introduction>Добро пожаловать на второй урок простой сложности
 
-Large, complex airports can be difficult for passengers to traverse. This can cause them to be late, hurting your ratings.</Introduction>
+Пассажирам сложно ориентироваться в большом аэропорту. Это может привести к их опозданию на рейсы, что скажется на ваших рейтингах.</Introduction>
         <Tip1Title>Совет 1: Управление очередями</Tip1Title>
-        <Tip1>You can assign the same queue to multiple services, such as one queue to three ticketing desks. This is an optimal way of making sure all waiting passengers are served in the order they arrived.</Tip1>
-        <Tip2>Sometimes a fair order is not the most efficient!
+        <Tip1>Вы можете назначить одну и ту же очередь нескольким службам, например, одну очередь на три стойки регистрации. Это оптимальный способ убедиться, что все пассажиры обслуживаются в порядке прибытия.</Tip1>
+        <Tip2>Иногда справедливая очередь не самая эффективная!
 
-Creating a seperate queue for flight crew will allow them to bypass the main queue, which is especially useful at security. If the crew arrive late to the plane, it causes delays.</Tip2>
-        <Tip3>You may also want to consider having priority queues for first class, as their satisfaction affects your airport rating much more than coach satisfaction does.
+Создание отдельной очереди для экипажа позволит им обойти основную очередь, что особенно полезно для безопасности. Если экипаж опаздывает на самолет, это приводит к задержке рейса.</Tip2>
+        <Tip3>Вы также можете создать приоритетную очередь для первого класса, так как их удовлетворенность влияет на рейтинг вашего аэропорта гораздо больше, чем удовлетворенность экипажа.
 
-Don't skip making queues! Staff get confused about who is next to serve when everyone is crowding around, causing them to be much slower.</Tip3>
-        <SecondTerminalTitle>Совет 2: Multiple Terminals</SecondTerminalTitle>
-        <SecondTerminal>Multiple Terminals:
+Создавайте очереди, чтобы облегчить работу персонала, иначе они будут работать медленнее, если их будет окружать толпа пассажиров.</Tip3>
+        <SecondTerminalTitle>Совет 2: Несколько терминалов</SecondTerminalTitle>
+        <SecondTerminal>Несколько терминалов:
 
-If there's enough space, and you have a large enough budget, a second terminal would be great for improving airport efficiency. This allows you to split up airplane gates between multiple security and ticketing zones, as long as they are connected!</SecondTerminal>
-        <SecondTerminalProblems>This will require a lot more infrastructure to function correctly. Only do this once you are confident in how to get the first terminal working.
+Если у вас достаточно места и большой бюджет, второй терминал будет полезен для повышения эффективности аэропорта. Вы сможете распределить гейты между несколькими зонами регистрации и досмотра!</SecondTerminal>
+        <SecondTerminalProblems>Для работы второго терминала потребуется намного более развитая инфрастуктура. Начинайте строительство только когда Вы уверены в работе первого терминала.
 
-Tip: You could load the default map, and copy it below it to practise making one! Make sure the operational objects are assigned correctly.</SecondTerminalProblems>
-        <WalwayIntroTitle>Совет 3: Moving Walkways</WalwayIntroTitle>
-        <WalkwayIntro>Building walkways along very long areas of the terminal is the easiest and cheapest way to improve efficiency. This is assuming you have wide corridors to drag them down.
+Совет: Вы можете загрузить карту по умолчанию, чтобы попрактиковаться в создании нескольких терминалов! Убедитесь, что работающие объекты связаны правильно.</SecondTerminalProblems>
+        <WalwayIntroTitle>Совет 3: Траволаторы</WalwayIntroTitle>
+        <WalkwayIntro>Строительство траволаторов вдоль очень длинных участков терминала является самым простым и дешевым способом повышения эффективности. При условии, что у вас достаточно широкие коридоры.
 
-They can also be used by staff and baggage carts! Because each go in one-direction, consider how passengers will use them. Don't build huge ones; leave gaps so people are free to walk off them.</WalkwayIntro>
-        <WalkwayTips>Just remember that long walking distances are not the only reason for passengers being late. Make sure to investigate long queues and where people are slowing down.
+Они также могут использоваться персоналом и багажными тележками! Потому как каждый из них идет только в одном направлении, продумайте, как пассажиры будут их использовать. Не стройте очень длинными (оставляйте промежутки), чтобы люди могли свободно сходить с них.</WalkwayIntro>
+        <WalkwayTips>Просто помните, что длинные дистанции - не единственная причина, по которой пассажиры опаздывают. Проверьте длинные очереди и места, где люди замедляются.
 
-As explained in tutorial 1, building custom queues allows you to visually identify traffic problems.</WalkwayTips>
-        <WalkwayTask>A recommended area has been shown as an example, going from security to the departure lounge. This is recommended because passengers need to get to their flights quickly.
+Как объяснялось в уроке 1, создание очередей позволяет визуально определить проблемы с трафиком.</WalkwayTips>
+        <WalkwayTask>В качестве примера подсвечена область от пункта досмотра до пункта отправления, поскольку пассажиры должны быстро добираться до своих рейсов.
 
-To build them, search "Walkway" in the build menu search bar, and then simply drag in the direction you want it to be built in.</WalkwayTask>
-        <WalkwayTaskObjective>Build a walkway, possibly on the recommended area.</WalkwayTaskObjective>
-        <FloorsIntroTitle>Совет 4: Multiple Floors</FloorsIntroTitle>
-        <FloorsIntro>Multiple Floors:
+Для строительства найдите "Траволатор" в строке поиска меню Строительства, а затем просто перетащите в направлении, в котором вы хотите его построить.</WalkwayTask>
+        <WalkwayTaskObjective>Постройте траволатор, желательно в предложенной области.</WalkwayTaskObjective>
+        <FloorsIntroTitle>Совет 4: Несколько этажей</FloorsIntroTitle>
+        <FloorsIntro>Несколько этажей:
             
-It might not be practical to fit in walkways if there is little corridor space.
+Может оказаться непрактичным укладывать траволаторы, если в коридоре мало места.
 
-Depending on the layout of the airport, there might be no choice but to expand upwards. This is where multiple floors come in.</FloorsIntro>
-        <Controls>Use KeyboardFunctions.LevelUp to go up a floor, and KeyboardFunctions.LevelDown to go down. Or, click on the arrows to the right of the screen. This follows the American system: there is no first floor after the ground floor.
+В зависимости от планировки аэропорта, возможно, не останется иного выбора, кроме как расширить его вверх. Вот здесь и пригодится несколько этажей.</FloorsIntro>
+        <Controls>Используйте KeyboardFunctions.LevelUp, чтобы переместится на этаж выше и KeyboardFunctions.LevelDown - на этаж ниже. Или кликните на стрелки у правого края экрана. Используется американская система: первый этаж расположен над цокольным.
 
-Anything you can do on the ground floor, you can do on the other floors (except terrain changes).</Controls>
-        <Underground>Underground areas are useful for hiding later complicated systems, such as baggage conveyors and utilities, from passengers. You still need a foundation under where you place objects.
+Всё, что можно делать на цокольном этаже, можно делать и на остальных (за исключением изменения ландшафта).</Controls>
+        <Underground>Подземные этажи полезны для сокрытия от пассажиров таких систем, как конвейерные и коммунальные системы. В большинстве случаев Вам все ещё нужен фундамент для размещения объектов.
 
-They can also be useful for connecting different areas, such as a terminal-island, via tunnels. You could combine a long tunnel with moving walkways!</Underground>
-        <AboveGround>Higher levels can be useful for expanding your shopping areas in the departure lounge, or adding staff zones that are out of the way of passengers.
+Они также могут быть полезны для соединения различных зон через туннели, например отдельно стоящие терминалы. Вы можете объединить длинный туннель с траволаторами!</Underground>
+        <AboveGround>Более высокие этажи могут быть полезны для расширения Ваших торговых зон в зале вылета, или добавления зон персонала, недоступных пассажирам.
 
-A second floor door connection is required for the larger gate sizes to connect to the terminal.</AboveGround>
-        <SecondFloorOptionalTask>Feel free to build a second floor above the departure lounge, to make room for shops. Remember to connect it with stairs!
+Для подключения к терминалу более крупных гейтов требуется соединение с дверью на втором этаже.</AboveGround>
+        <SecondFloorOptionalTask>Не стесняйтесь строить второй этаж над залом вылета, чтобы освободить место для магазинов. Не забудьте соединить их лестницей!
 
-Before anything can be built on this floor, a foundation must be placed. That foundation must be placed above an existing one on the lower floor.</SecondFloorOptionalTask>
-        <SolutionsTitle>Solutions To Improve Efficiency</SolutionsTitle>
-        <Solutions>Solution 1: Manage your queues.
+Прежде чем что-либо построить на втором этаже, необходимо заложить фундамент. Этот фундамент должен быть установлен над существующим фундаментом на нижнем этаже.</SecondFloorOptionalTask>
+        <SolutionsTitle>Способы повышения эффективности</SolutionsTitle>
+        <Solutions>Способ 1: создавайте очереди.
 
-Solution 2: Build a second terminal.
+Способ 2: стройте второй терминал.
 
-Solution 3: Place moving walkways in long terminals to help passengers move faster.
+Способ 3: стройте траволаторы для быстрого перемещения пассажиров.
 
-Solution 4: Build on multiple floors to keep distances short.</Solutions>
+Способ 4: стройте несколько этажей, чтобы сократить расстояние.</Solutions>
     </Expansion>
     <Baggage>
         <IntroductionTitle>Багажные системы</IntroductionTitle>
