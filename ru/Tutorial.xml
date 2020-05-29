@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Tutorial>
     <Titles>
         <EasyTutorial1>Основы игры в SimAirport</EasyTutorial1>
@@ -7,8 +7,9 @@
         <FuelPA>Топливная и информационная система</FuelPA>
         <Scheduling>Расписание сотрудников</Scheduling>
         <FoodStores>Еда и магазины</FoodStores>
-        <NeedsNegotiate>Airline Needs and Negotiations</NeedsNegotiate>
+        <NeedsNegotiate>Потребности Авиалиний и переговоры</NeedsNegotiate>
     </Titles>
+    <Default>Полезные изображения будут появляться здесь на протяжении всего обучения.</Default>
     <EndTutorial>Закрыть</EndTutorial>
     <NextButton>Дальше</NextButton>
     <SkipObjective>Пропустить</SkipObjective>
@@ -21,108 +22,106 @@
 Проблема в том, что его постройка не завершена!</Introduction>
         <CameraMovement>Используйте кнопки WASD, стрелки или поместите курсор мыши рядом с краем экрана для перемещения камеры. Кроме того, можно нажать среднюю кнопку мыши и двигать курсор.
 
-Вы можете изменить скорость перемещения камеры на экране настроек.
+Вы можете изменить скорость перемещения камеры в меню настроек.
 
 Кроме того, вы можете изменить клавиши управления.</CameraMovement>
-        <TutorialWindow>You can move the tutorial window by holding the left-mouse button and dragging it to a new position.
+        <TutorialWindow>Для перемещения окна обучения удерживайте левую кнопку мыши и переместите его в новую позицию.
         
-Most windows can be dragged, and most also let you close them with the X button. This window can be minimized/maximized if you need it to take up less space.</TutorialWindow>
+Большинство окон можно перетаскивать, а также закрывать нажатием на крестик. Это окно может быть свернуто/развернуто, если необходимо освободить место на экране.</TutorialWindow>
         <TutorialWindowObjective>Теперь переместите окно!</TutorialWindowObjective>
-        <UserInterface>This complex simulation can be simple to understand if you take a few moments to look around the user interface.
+        <UserInterface>Текущая сложная симуляция проста для понимания, если Вы уделите немного времени осмотру пользовательского интерфейса.
 
-You have general stats at the top, time controls in the top right, various airport operations to the bottom left, and a selection of heatmaps to the right.
+В верхней части - основная статистика, управление временем - в правом верхнем углу, различные инструменты для управления аэропортом - слева внизу и карты интенсивности - справа.
 
 Нажмите Esc чтобы закрыть любое активное окно (это не работает с окнами обучения).</UserInterface>
-        <ConstructIntroTitle>Фундамент сооружений</ConstructIntroTitle>
-        <ConstructIntro>Это один из важнейших элементов строительстова в SimAirport.
+        <ConstructIntroTitle>Строительство сооружений</ConstructIntroTitle>
+        <ConstructIntro>Фундамент - один из важнейших элементов строительства в SimAirport.
 
-Objects and structures must be built by workmen. All inside rooms must be built on foundations, and once completed, any indoor items can be placed in there.</ConstructIntro>
-        <Hire4Workmen>Как только вы отметите место для строительства, стройматериалы будут заказаны автоатически.
+Объекты и сооружения строятся рабочими. Все внутренние комнаты должны быть построены на фундаменте. При завершении строительства в них возможно размещение необходимых предметов.</ConstructIntro>
+        <Hire4Workmen>Как только вы отметите место для строительства, стройматериалы будут заказаны автоматически.
 
-Materials are delivered by trucks down the main road, to the Delivery zone (south west). The materials are then collected by Workmen to be placed around the airport. Any spare materials, such as from cancelled projects, are put into storage.</Hire4Workmen>
+Материалы будут доставлены по главной дороге к зоне разгрузки на юго-западе. Материалы будут распределены по аэропорту рабочими. Любые неиспользуемые материалы, например при отмене строительства, помещаются на хранение.</Hire4Workmen>
         <Hire4WorkmenObjective>Наймите как минимум 6 строителей (суммарно). Это можно сделать в окне Персонал (KeyboardFunctions.StaffHub).</Hire4WorkmenObjective>
-        <DragFoundation>В меню Строительство выберите раздел Строительство, а затем нажмите на Фундаент со стенами. Не уверены, для чего нужен тот или иной объект? Задержите над ним указатель мыши для просмотра описания.
-        
-You will need to wait for the workers to build it, but you can speed up time with the controls in the top right corner of the screen, or by pressing 1, 2 или 3 для переключения скорости или ПРОБЕЛ для паузы.</DragFoundation>
-        <DragFoundationObjective>Drag the foundation over the striped area next to the departure lounge. Made a mistake? Left-click the project to cancel before the Workmen begin.</DragFoundationObjective>
-        <BuildingMistakes>Not only can you cancel a project during construction by left-clicking, but you can also remove foundations using the Demolish tool (KeyboardFunctions.DemolishTool).
+        <DragFoundation>В меню Строительство выберите раздел Строительство, а затем нажмите на Фундамент со стенами. Не уверены, для чего нужен тот или иной объект? Задержите над ним указатель мыши для просмотра описания.
 
-Or, if you've accidentally misplaced some objects, use the Clear tool (KeyboardFunctions.ClearTool). Не уверены, какой вам нужен инструмент? Нажмите KeyboardFunctions.BuildModifier для автоматического выбора инструмента удаления.
+Вам нужно дождаться завершения строительства рабочими, но вы можете ускорить время кнопками в правом верхнем углу экрана или нажатием клавиш 1, 2 или 3 для переключения скорости и Пробел для паузы.</DragFoundation>
+        <DragFoundationObjective>Разместите фундамент в полосатой зоне рядом с залом вылета. Допустили ошибку? Кликните левой кнопкой мыши по проекту, чтобы отменить его до начала строительства.</DragFoundationObjective>
+        <BuildingMistakes>Вы можете не только отменить проект во время строительства, щелкнув левой кнопкой мыши, но и удалить фундамент, используя инструмент для сноса. (KeyboardFunctions.DemolishTool).
 
-You can increase or decrease the workers' priority of the project in the left-click menu too!</BuildingMistakes>
-        <GuestNeedsTitle>Нужды пассажиров и зоны</GuestNeedsTitle>
-        <GuestNeeds>Passengers have various needs, such as hunger, bladder, and boredom. Our airport currently deals with bladder needs with the restrooms.
+Или, если вы неправильно разместили некоторые объекты, используйте инструмент «Очистить» (KeyboardFunctions.ClearTool). Не уверены, какой вам нужен инструмент? Нажмите KeyboardFunctions.BuildModifier для автоматического выбора инструмента удаления.
 
-Dealing with these will raise our passengers' satisfaction levels, which will improve our chances of getting better airline contracts.</GuestNeeds>
-        <Boredom>An Arcade should help our passengers feel less bored. To do this, we need to zone an area for it.
+Также вы можете задать приоритет проекту в меню при нажатии левой кнопки мыши!</BuildingMistakes>
+        <GuestNeedsTitle>Потребности пассажиров и зоны</GuestNeedsTitle>
+        <GuestNeeds>Пассажиры нуждаются в развлечениях, утолении голода, посещении туалета. Ваш аэропорт в настоящее время удовлетворяет только последнюю потребность.
 
-Zones designate areas where passengers and staff can use certain facilities and objects. You can toggle zone visualizations with KeyboardFunctions.ZoneToggle.</Boredom>
-        <BoredomObjective>Find the Zones panel, and fill the new area with an Arcade zone. You can zone over partially or fully constructed objects.</BoredomObjective>
+Удовлетворяйте потребности Ваших пассажиров, чтобы повысить Ваши шансы на получение более выгодных контрактов с авиакомпаниями.</GuestNeeds>
+        <Boredom>Аркадные автоматы должны помочь нашим пассажирам почувствовать себя веселее. Для этого нужно создать соответствующую зону.
+
+Зоны обозначают места, где пассажиры и персонал могут пользоваться определенными удобствами и объектами. Вы можете переключать визуализацию зон с помощью KeyboardFunctions.ZoneToggle.</Boredom>
+        <BoredomObjective>Найдите панель Зоны и заполните новую область зоной Игровых автоматов. Вы можете зонировать частично или полностью построенные объекты.</BoredomObjective>
         <ProblemArcadeTitle>Исправление проблем</ProblemArcadeTitle>
-        <ProblemArcade>Если в помещении есть проблемы, оно станет красным. Hover over it to see what it needs. Most issues are either it is the wrong size, or it is missing objects.
+        <ProblemArcade>Если в помещении есть проблемы, оно станет красным. Наведите курсор, чтобы увидеть в чем проблема. Большинство проблем либо в неправильных размерах, либо в отсутствии объектов.
 
-Press KeyboardFunctions.RotateObject or middle-mouse-click to rotate an object. Right click on a placed object to cancel or delete it.</ProblemArcade>
-        <ProblemArcadeObjective>Устраните проблемы в комнате игровых автоматов, чтобы она заработала!</ProblemArcadeObjective>
+Нажмите KeyboardFunctions.RotateObject или среднюю кнопку мыши для поворота объекта. Правый клик на размещенном объекте для отмены или удаления.</ProblemArcade>
+        <ProblemArcadeObjective>Устраните проблемы с игровыми автоматами, чтобы они заработали!</ProblemArcadeObjective>
         <EnvironmentTitle>Улучшение аэропорта, карты интенсивности</EnvironmentTitle>
-        <Environment>Пассажиры могут разочароваться в аэропорте. Иногда достаточно небольшого дерева, чтобы это исправить!
+        <Environment>Аэропорт может разочаровать пассажиров. Иногда достаточно небольшого дерева, чтобы это исправить!
 
-Scenery can be found in the build menu, under Objects and Decor. You can also change the floor design!
+Декорации можно найти в меню строительства, в разделе Объекты > Декор. Также вы можете изменить дизайн пола!
 
-You can use the Environment Heatmap to see the most appealing areas of your airport.</Environment>
+Вы можете использовать Карты интенсивности окружения, чтобы увидеть наиболее привлекательные области вашего аэропорта.</Environment>
         <Decorate>Другие карты интенсивности также полезны.
 
-Информационная карта интенсивности  показывает места, где пассажиры могут узнать актуальную информацию о своих рейсах.
+Информационная карта интенсивности показывает места, где пассажиры могут узнать актуальную информацию о своих рейсах.
 
-Place info displays and kiosks to help passengers keep track, or else they may miss their flights.</Decorate>
-        <PlaneStandsTitle>Fixing the Broken Plane Stand!</PlaneStandsTitle>
-        <PlaneStands>We don't have any planes! In order to get planes, we first need a working plane stand, connected to a taxiway and assigned a Gate Agent Desk.
+Размещайте информационные дисплеи и киоски, чтобы помочь пассажирам отслеживать рейсы, иначе они могут пропустить их.</Decorate>
+        <PlaneStandsTitle>Исправление стоянки самолетов!</PlaneStandsTitle>
+        <PlaneStands>У нас нет самолетов! Для того, чтобы принимать самолеты, нам сначала понадобится рабочая стоянка, подключенная к рулежной дорожке и назначенная стойка выхода на посадку.
 
-Tip: In the Build Menu, you can search 'Gate' or 'Taxiway' to quickly find them. Once built, click on either the stand or the desk to assign them to each other.</PlaneStands>
-        <PlaneStandsObjective>Hover over the gate to see what is wrong or missing, then fix the issues.</PlaneStandsObjective>
+Подсказка: в меню строительства вы можете набрать "Гейт" или "Рулежная дорожка" для быстрого поиска. После завершения строительства выберите стоянку или стойку для выхода для привязки друг к другу.</PlaneStands>
+        <PlaneStandsObjective>Наведите на гейт, чтобы увидеть проблемы. Решите их.</PlaneStandsObjective>
         <QueuesTitle>Очереди на посадку</QueuesTitle>
         <Queues>Для повышения эффективности все стойки выхода на посадку должны иметь очереди.
 
-Click Build, then Queues, and drag out a new queue from close to the gate (see example pink area). Then, click on the gate or the queue to assign them to each other.
+Выберите Строительство, затем Очереди. Разместите новую очередь в розовой области, начиная со стойки выхода. Затем кликните на гейте или очереди для привязки друг к другу.
 
-Ticketing desks and security stands can also have queues.</Queues>
-        <QueuesObjective>Build and assign a queue for the gate agent desk.</QueuesObjective>
+Стойки регистрации и службы безопасности также могут иметь очереди</Queues>
+        <QueuesObjective>Постройте и привяжите очередь к стойке гейта.</QueuesObjective>
         <FlightStatusTitle>Аэропорту нужны самолеты!</FlightStatusTitle>
-        <FlightStatus>Now that we have a working plane stand, we need planes to attract new departing passengers, and to land arriving passengers.
+        <FlightStatus>Теперь, когда у Вас есть рабочая стоянка, Вам нужны самолеты для привлечения новых вылетающих и прибывающих пассажиров.
 
-On the flight status screen (KeyboardFunctions.FlightStatus), you'll see that there are currently no planes!</FlightStatus>
-        <FlightManage>Open up flight management (KeyboardFunctions.FlightSchedule), where you'll see available airline contracts with daily flights. We can only support small planes in the morning, which can be filtered at the top.
+На экране статуса рейса (KeyboardFunctions.FlightStatus) вы увидите, что на данный момент нет самолетов!</FlightStatus>
+        <FlightManage>Откройте управление рейсами (KeyboardFunctions.FlightSchedule), где вы увидите доступные контракты авиакомпаний с ежедневными рейсами. Аэропорт может принять только маленькие самолеты в дневное время, которые можно отфильтровать сверху.
 
-In order to get PM flights, you will need to click on your runway and add lights in the upgrades menu!</FlightManage>
-        <FlightManageObjective>Accept and schedule the two available flights.</FlightManageObjective>
-        <RunwayLength>You can get larger planes by building larger plane stands, and by upgrading the length of your runways. You won't need to do this early on, as small planes can use small runways.
+Для того, чтобы получить доступ к ночным рейсам, вам нужно будет нажать на ВПП и добавить огни в меню модернизации!</FlightManage>
+        <FlightManageObjective>Примите и запланируйте два доступных рейса.</FlightManageObjective>
+        <RunwayLength>Вы можете принимать более крупные самолеты, построив более крупные гейты и увеличив длину ВПП. Вам не нужно будет делать это на ранней стадии, так как маленькие самолеты могут использовать маленькие ВПП.
 
-When you are ready to, simply use the runway tool (depending on concrete or asphalt) on top of an existing runway and drag it out to extend it.</RunwayLength>
-        <PlaneLands>Planes usually start arriving the next day after they have first been assigned, so you might not see any today.
+Когда вы будете готовы, просто модернизируйте ВПП (в зависимости от покрытия) поверх существующей ВПП, перетащив улучшение для расширения.</RunwayLength>
+        <PlaneLands>Самолеты обычно начинают прибывать на следующий день после их назначения в расписании, поэтому вы не увидите их сегодня.
 
-It's up to you to figure out how best to balance your schedule. Too crowded, and you may make your airport chaotic and lose satisfaction. Too quiet, and the airport may not be profitable.</PlaneLands>
+Вам решать, как лучше сбалансировать свой график. Слишком людно, и вы получите хаос и потеряете удовлетворенность. Слишком тихо, и аэропорт может оказаться в убытке.</PlaneLands>
         <UsefulUITitle>Важная информация</UsefulUITitle>
-        <UsefulUI>
-            
-Also at the top of the screen, you can hover over airline interest and passenger satisfaction for details. Clicking on them gives you more options.
+        <UsefulUI>Также в верхней части экрана вы можете навести курсор мыши на заинтересованность авиакомпаний и мнение пассажиров. Нажмите на них для получения подробной информации.
 
-These two screens will help you determine how you need to improve your airport for future airlines and passengers.</UsefulUI>
-        <WeatherAndUpgrades>At the top, you can also see the weather. This will affect how safe it is for planes to land.
+Эти два экрана помогут вам определить, как вам стоит улучшить свой аэропорт для будущих авиакомпаний и пассажиров.</UsefulUI>
+        <WeatherAndUpgrades>Вверху вы также можете видеть погоду. Она влияет на безопасность приземления самолетов.
 
-You can click on a runway to upgrade it, and add devices to make them safer. This allows planes to land in harsher condtions.</WeatherAndUpgrades>
+Вы можете нажать на ВПП, чтобы обновить ее, и добавить устройства для обеспечения большей безопасности. Это позволит самолетам приземляться в более жестких условиях.</WeatherAndUpgrades>
         <FinanceHubTitle>Станьте успешным магнатом</FinanceHubTitle>
-        <FinanceHub>More importantly, we need to make a profit. The Finance Hub has various operations, including taking out loans, which is useful if you are low on cash.
+        <FinanceHub>Что еще более важно, Вы должны получать прибыль. Центр финансов предлагает различные операции, в том числе получение кредитов, что полезно, если у вас мало денег.
 
-For quickness, you can also hover over your balance at the top of the screen for a brief overview.</FinanceHub>
-        <Research>Unfortunately, some operations are locked. Usually, you need either specialist staff or research. As usual, hover over a problem to see what's required.
+Вы также можете навести курсор на баланс в верхней части экрана для краткого обзора.</FinanceHub>
+        <Research>К сожалению, некоторые операции заблокированы. Обычно вам нужно нанять специалиста, либо провести исследование. Как обычно, наведите курсор на проблему, чтобы увидеть требования.
 
-If you are missing a staff member that you cannot hire, check the Research screen. You might need to unlock them first. Keeping up with research is important for staying competitive.</Research>
-        <CommercialOperations>What's also important to your balance is your prices.
+Если Вы не можете нанять определенных сотрудников, проверьте экран Исследований. Возможно, вам придется сначала их разблокировать. Чтобы оставаться конкурентоспособным, важно не отставать в исследованиях.</Research>
+        <CommercialOperations>Что также важно для вашего баланса, так это ваши цены.
             
-In the Commercial Operations screen (KeyboardFunctions.OpsControlPanel), you can adjust the prices you charge. Remember: low prices increase airline satisfaction, but high prices increases profits at the cost of satisfaction!</CommercialOperations>
-        <FinaleTitle>That's the Basics</FinaleTitle>
-        <Finale>That is the basics of running an airport. Feel free to expand this airport or try a new airport!
+На экране Регулирования расценок (KeyboardFunctions.OpsControlPanel) вы можете настроить цены, которые вы взимаете. Помните: низкие цены увеличивают удовлетворенность авиакомпаний, но высокие цены увеличивают прибыль за счет снижения удовлетворенности!</CommercialOperations>
+        <FinaleTitle>Это основы</FinaleTitle>
+        <Finale>Это основы управления аэропортом. Не стесняйтесь расширить этот аэропорт или попробуйте новый!
             
-It is recommended that you try playing the default starter airport, or complete the other tutorials, before creating an airport from scratch.</Finale>
+Рекомендуется попробовать запустить аэропорт по умолчанию для начинающих или выполнить другие учебные пособия, прежде чем создавать аэропорт с нуля.</Finale>
     </EasyTutorial1>
     <Expansion>
         <IntroductionTitle>Расширение аэропорта</IntroductionTitle>
