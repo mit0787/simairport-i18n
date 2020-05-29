@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Triggers>
     <Hold>Ждать {0} часов.</Hold>
     <HoldSingle>Ждать 1 час.</HoldSingle>
@@ -9,19 +9,19 @@
     <Objectives>
         <Cash>Баланс счета составляет {0} (без учета займов).</Cash>
         <CashEditor>Баланс счета составляет ...</CashEditor>
-        <Gates>Имеется {0} гейтов.</Gates>
-        <GatesEditor>Есть столько гейтов для самолетов.</GatesEditor>
-        <Runways>Имеется {0} ВПП.</Runways>
-        <RunwaysEditor>Есть столько взлетно-посадочных полос.</RunwaysEditor>
-        <Satisfaction>Итоговая удовлетовренность пассажиров составляет {0}%.</Satisfaction>
-        <SatisfactionEditor>Показатель итоговой удовлетовренностьи пассажиров.</SatisfactionEditor>
+        <Gates>В наличии {0} гейтов.</Gates>
+        <GatesEditor>Столько гейтов в наличии.</GatesEditor>
+        <Runways>В наличии {0} ВПП.</Runways>
+        <RunwaysEditor>Взлетно-посадочных полос в наличии.</RunwaysEditor>
+        <Satisfaction>Итоговая удовлетворенность пассажиров составляет {0}%.</Satisfaction>
+        <SatisfactionEditor>Показатель итоговой удовлетворенности пассажиров.</SatisfactionEditor>
         <PaxCount>{0} пассажиров в аэропорту одновременно.</PaxCount>
-        <PaxCountEditor>В аэропорту одновременно находится столько пассажиров.</PaxCountEditor>
+        <PaxCountEditor>Количество пассажиров, находящихся в аэропорту одновременно.</PaxCountEditor>
         <NoDebts>Задолженность по кредиту не более {0}.</NoDebts>
-        <NoDebtsEditor>Имеется задолженность по кредиту не более...</NoDebtsEditor>
+        <NoDebtsEditor>Задолженность по кредиту не более...</NoDebtsEditor>
         <PlaneCount>Обслужить суммарно {0} самолетов.</PlaneCount>
         <PlaneCountEditor>Обслужить суммарно столько самолетов.</PlaneCountEditor>
-        <HireStaff>Имеется {0} сотрудников.</HireStaff>
+        <HireStaff>В подчинении {0} сотрудников.</HireStaff>
         <HireStaffEditor>Итоговое число сотрудников.</HireStaffEditor>
         <Refuel>Заправить {0} литров топлива в самолеты.</Refuel>
         <RefuelEditor>Заправить столько литров топлива в самолеты.</RefuelEditor>
@@ -31,8 +31,8 @@
         <Unlock>Разблок.</Unlock>
     </Rewards>
     <LoseConditions>
-        <Satisfaction>Не иметь пассажиров, с уровнем удовольствия ниже {0}.</Satisfaction>
-        <SatisfactionEditor>Не иметь пассажиров, с уровнем удовольствия ниже...</SatisfactionEditor>
+        <Satisfaction>Отсутствие пассажиров с уровнем удовлетворения ниже {0}.</Satisfaction>
+        <SatisfactionEditor>Отсутствие пассажиров с уровнем удовлетворения ниже...</SatisfactionEditor>
         <Time>Выполнить все задачи до наступления {0}-го дня.</Time>
         <TimeEditor>Выполнить все задачи до наступления определенного дня.</TimeEditor>
         <Cancelled>Не допустить отмены более {0} рейсов.</Cancelled>
