@@ -3,11 +3,11 @@
     <Titles>
         <EasyTutorial1>Основы игры в SimAirport</EasyTutorial1>
         <Expansion>Большое расширение аэропорта</Expansion>
-        <Baggage>Багажная система</Baggage>
-        <FuelPA>Топливная и информационная система</FuelPA>
+        <Baggage>Система управления багажом</Baggage>
+        <FuelPA>Оповещение и топливное обслуживание</FuelPA>
         <Scheduling>Расписание сотрудников</Scheduling>
         <FoodStores>Еда и магазины</FoodStores>
-        <NeedsNegotiate>Потребности Авиалиний и переговоры</NeedsNegotiate>
+        <NeedsNegotiate>Потребности авиалиний и переговоры</NeedsNegotiate>
     </Titles>
     <Default>Полезные изображения будут появляться здесь на протяжении всего обучения.</Default>
     <EndTutorial>Закрыть</EndTutorial>
@@ -15,7 +15,7 @@
     <SkipObjective>Пропустить</SkipObjective>
     <EasyTutorial1>
         <IntroductionTitle>Добро пожаловать в SimAirport!</IntroductionTitle>
-        <Introduction>Это первое из простых учебных заданий. На всем протяжении будут доступны полезные изображения, открывающиеся по нажатию на синий значок информации со стрелкой.
+        <Introduction>Это первый из простых учебных уроков. На всем протяжении будут доступны полезные изображения, открывающиеся по нажатию на синий значок информации со стрелкой.
 
 Аэропорт Новограда должен стать его воротами во внешний мир. В его небольшом терминале есть всё, что нужно: остановка транспорта, стойки регистрации, служба безопасности, зал вылета, (неисправный) выход на посадку и багажная система.
 
@@ -102,7 +102,9 @@
 
 Вам решать, как лучше сбалансировать свой график. Слишком людно, и вы получите хаос и потеряете удовлетворенность. Слишком тихо, и аэропорт может оказаться в убытке.</PlaneLands>
         <UsefulUITitle>Важная информация</UsefulUITitle>
-        <UsefulUI>Также в верхней части экрана вы можете навести курсор мыши на заинтересованность авиакомпаний и мнение пассажиров. Нажмите на них для получения подробной информации.
+        <UsefulUI>
+        
+Также в верхней части экрана вы можете навести курсор мыши на заинтересованность авиакомпаний и мнение пассажиров. Нажмите на них для получения подробной информации.
 
 Эти два экрана помогут вам определить, как вам стоит улучшить свой аэропорт для будущих авиакомпаний и пассажиров.</UsefulUI>
         <WeatherAndUpgrades>Вверху вы также можете видеть погоду. Она влияет на безопасность приземления самолетов.
@@ -128,6 +130,14 @@
         <Introduction>Добро пожаловать на второй урок простой сложности
 
 Пассажирам сложно ориентироваться в большом аэропорту. Это может привести к их опозданию на рейсы, что скажется на ваших рейтингах.</Introduction>
+        <SolutionsTitle>Способы повышения эффективности</SolutionsTitle>
+        <Solutions>Способ 1: создавайте очереди.
+
+Способ 2: стройте второй терминал.
+
+Способ 3: стройте траволаторы для быстрого перемещения пассажиров.
+
+Способ 4: стройте несколько этажей, чтобы сократить расстояние.</Solutions>
         <Tip1Title>Совет 1: Управление очередями</Tip1Title>
         <Tip1>Вы можете назначить одну и ту же очередь нескольким службам, например, одну очередь на три стойки регистрации. Это оптимальный способ убедиться, что все пассажиры обслуживаются в порядке прибытия.</Tip1>
         <Tip2>Иногда справедливая очередь не самая эффективная!
@@ -172,77 +182,69 @@
         <SecondFloorOptionalTask>Не стесняйтесь строить второй этаж над залом вылета, чтобы освободить место для магазинов. Не забудьте соединить их лестницей!
 
 Прежде чем что-либо построить на втором этаже, необходимо заложить фундамент. Этот фундамент должен быть установлен над существующим фундаментом на нижнем этаже.</SecondFloorOptionalTask>
-        <SolutionsTitle>Способы повышения эффективности</SolutionsTitle>
-        <Solutions>Способ 1: создавайте очереди.
-
-Способ 2: стройте второй терминал.
-
-Способ 3: стройте траволаторы для быстрого перемещения пассажиров.
-
-Способ 4: стройте несколько этажей, чтобы сократить расстояние.</Solutions>
     </Expansion>
     <Baggage>
-        <IntroductionTitle>Багажные системы</IntroductionTitle>
-        <Introduction>Welcome to the first advanced tutorial.
+        <IntroductionTitle>Система управления багажом</IntroductionTitle>
+        <Introduction>Добро пожаловать в первый расширенный урок.
             
-Baggage Systems are a must for large airports. This will allow for efficient loading and unloading of plane luggage, and swift deliveries to the Baggage Claim.</Introduction>
-        <SmallAirports>Do note that if you are running a small airport, you don't need a full baggage system. To handle baggage you just need ticketing desks, a Baggage Claim zone, and extra workmen.
+Багажная система обязательна для крупных аэропортов. Она позволяет эффективно загружать и выгружать багаж, а также быстро доставлять его.</Introduction>
+        <SmallAirports>Обратите внимание, что для небольшого аэропорта вам не нужна подобная система. Для обработки багажа вам понадобятся стойка регистрации, зона выдачи багажа и дополнительные рабочие.
 
-These workmen will drive baggage carts between the zones and gates to keep up with demand, and this will work fine for small airports.</SmallAirports>
-        <SystemIntroTitle>Using Multiple Floors</SystemIntroTitle>
-        <SystemIntro>Before you can start building a baggage system, you first have to get used to using multiple floors as demonstrated in the Large Airport Expansion tutorial. We'll briefly cover it here.</SystemIntro>
-        <MultipleFloors>Use KeyboardFunctions.LevelUp to go up a floor, and KeyboardFunctions.LevelDown to go down. Or, click on the arrows to the right of the screen. This follows the American system: there is no first floor after the ground floor.
+Эти рабочие будут перемещать багаж на тележках между зонами и гейтами, что отлично подходит для небольших аэропортов.</SmallAirports>
+        <SystemIntroTitle>Использование нескольких этажей</SystemIntroTitle>
+        <SystemIntro>Прежде чем вы сможете приступить к созданию системы, вы должны сначала привыкнуть к использованию нескольких этажей, как было показано в уроке по расширению аэропорта. Сейчас кратко повторим.</SystemIntro>
+        <MultipleFloors>Используйте KeyboardFunctions.LevelUp, чтобы переместится на этаж выше и KeyboardFunctions.LevelDown - на этаж ниже. Или кликните на стрелки у правого края экрана. Используется американская система: первый этаж расположен над цокольным.
 
-Anything you can do on the ground floor, you can do on the other floors (except terrain changes).</MultipleFloors>
-        <UndergroundFoundation>As you can see, the underground foundation has already been built.
+Всё, что можно делать на цокольном этаже, можно делать и на остальных (за исключением изменения ландшафта).</MultipleFloors>
+        <UndergroundFoundation>Как Вы могли заметить, подземный этаж уже построен.
 
-When you do this for your own airports, you need enough space for ramps, conveyor belts, and luggage hubs.</UndergroundFoundation>
+Когда Вы строите систему в своём аэропорту у Вас должно быть достаточно места для транспортёров, конвейеров и сортировочных хабов.</UndergroundFoundation>
         <ConveyorRampTitle>Шаг 1: От стойки регистрации до самолета</ConveyorRampTitle>
-        <ConveyorRamp>We need the luggage to get from the ticketing desks to the planes.
+        <ConveyorRamp>Нам необходимо, чтобы багаж добрался от стоек регистрации до самолёта.
 
-A conveyor ramp will deliver luggage between floors.
+Конвейерный транспортёр переместит багаж между этажами.
 
-In the Build Menu, go to the Utilities tab for every baggage-related object (and more).</ConveyorRamp>
-        <ConveyorRampObjective>Place a Conveyor Down Transition on the ground floor in the highlighted spot. If it cannot be placed, keep rotating it on that area shown and it should turn green.</ConveyorRampObjective>
-        <DeskToRamp>Now we need the desks to be connected to this ramp. The direction is automatic, so it does not matter which way you drag them.
+В меню Строительства выберите пункт "Инфрастуктура" для выбора объектов, связанных с багажной системой (и не только).</ConveyorRamp>
+        <ConveyorRampObjective>Поместите конвейерный транспортёр вниз на цокольном этаже в выделенном месте. Если его нельзя разместить, продолжайте вращать его в указанной области, пока он не станет зелёным.</ConveyorRampObjective>
+        <DeskToRamp>Теперь нам нужно подключить стойки к этому транспортёру. Направление устанавливается автоматическим, поэтому не имеет значения, каким образом вы располагаете конвейеры.
         
-Note: if you wish to place things freely, place these objects where you like and skip ahead at any point. If you decide to skip, remember you'll have to figure out how to connect them yourself!</DeskToRamp>
-        <DeskToRampObjective>Connect the desks to the ramp with conveyor belts on the highlighted line. You will need to wait for it to be built - remember the speed controls in the top right!</DeskToRampObjective>
+Примечание: Вы можете разместить объекты по-своему, пропустив данный этап в любой момент. В этом случае Вам придется самостоятельно разобраться как соединить их между собой!</DeskToRamp>
+        <DeskToRampObjective>Подключите стойки к транспортёру с помощью конвейерных лент в выделенной области. Вам нужно будет дождаться окончания сборки - помните о регуляторе скорости в правом верхнем углу!</DeskToRampObjective>
         <HubTitle>Сортировка багажа</HubTitle>
-        <Hub>The luggage needs to be sorted. A baggage hub will take inputs, and sort them into outputs. You can rotate it with middle-click or by pressing KeyboardFunctions.RotateObject.
+        <Hub>Багаж должен быть рассортирован. Сортировочный хаб принимает багаж на вход и распределяет его по выходам. Вы можете поворачивать его средней кнопкой мыши или клавишей KeyboardFunctions.RotateObject.
 
-Note where the hub's entrances and exits are, based on the arrows pointing in towards it and out of it. You can right-click on any to change what type they are!</Hub>
-        <HubObjective>Build a baggage hub and connect it.</HubObjective>
-        <DepotTitle>Finishing Step 1: Ticketing to Planes</DepotTitle>
-        <Depot>Once the luggage is sorted, it will need to be sent to a baggage depot close by to the aircraft gates. This is where they will be collected from for planes.</Depot>
-        <DepotObjective>Build a baggage depot on the ground floor on the highlighted spot.</DepotObjective>
-        <HubToDepot>An output from the baggage hub needs to connect to the input of the baggage depot.</HubToDepot>
-        <HubToDepotObjective>Connect the depot to the hub on the highlighted squares as a guide.</HubToDepotObjective>
-        <CheckDepotWorks>To check if the connections are correct, hover over the depot. It should no longer require a connection to a ticketing desk.
+Обратите внимание, где находятся входы и выходы хаба, основываясь на стрелках, направленных внутрь и наружу. Вы можете щелкнуть правой кнопкой мыши на любой вход/выход, чтобы изменить его тип!</Hub>
+        <HubObjective>Простройте сортировочный хаб и подключите его.</HubObjective>
+        <DepotTitle>От стойки регистрации до самолёта (завершение)</DepotTitle>
+        <Depot>После сортировки багаж необходимо направить к багажному депо рядом с гейтом. Здесь багаж будет перегружаться в багажный кар для последующей загрузки в самолёт.</Depot>
+        <DepotObjective>Постройте багажное депо на уровне цокольного этажа в подсвеченной области.</DepotObjective>
+        <HubToDepot>Выход сортировочного хаба должен быть соединен со входом багажного депо.</HubToDepot>
+        <HubToDepotObjective>Произведите подключение, ориентируясь на подсвеченные квадраты.</HubToDepotObjective>
+        <CheckDepotWorks>Для проверки правильности подключения наведите курсор на депо. Должно отсутствовать требование о соединении со стойками регистрации.
         
-It will only deliver luggage for gates assigned to the depot. This can be taken advantage of when you have large airports with multiple depots.</CheckDepotWorks>
-        <CheckDepotWorksObjective>Now click on the depot and assign it to the aircraft gate.</CheckDepotWorksObjective>
-        <DepotToPlane>The baggage will not be able to get to the planes yet! Baggage cars will deliver luggage to and from depots. They are stored in hangars.
+Сюда будет доставляться багаж для гейта, связанного с депо. Это удобно, когда у вас крупный аэропорт с несколькими депо.</CheckDepotWorks>
+        <CheckDepotWorksObjective>Кликните на депо и свяжите его с гейтом.</CheckDepotWorksObjective>
+        <DepotToPlane>У багажа пока нет возможности оказаться в самолёте! Доставкой багажа из и в депо занимаются багажные кары. Они размещаются в ангарах.
 
-You can search for "Hangar" in the build menu or find it under structures.</DepotToPlane>
-        <DepotToPlaneObjective>Build a small hangar anywhere next to a taxiway, and once constructed, add a baggage car.</DepotToPlaneObjective>
-        <DepartureWorks>The baggage car will deliver luggage between the depot and the gates assigned.
+Вы можете набрать "Ангар" в поиске меню строительства или найти его в разделе "Объекты>Постройки" </DepotToPlane>
+        <DepotToPlaneObjective>Постройте малый ангар возле рулёжной дорожки и, после окончания строительства, добавьте кар.</DepotToPlaneObjective>
+        <DepartureWorks>Багажный кар будет перемещать багаж между депо и связанным с ним гейтом.
 
-That's departure flights sorted, but now we need to sort out arrivals luggage.</DepartureWorks>
+Багаж на отбывающий рейс отсортирован, теперь нужно разобраться с пребывающим багажом.</DepartureWorks>
         <DepotToHubTitle>Шаг 2: От самолета до карусели</DepotToHubTitle>
-        <DepotToHub>Firstly, let's get the arrivals luggage from the baggage depot to the hub.</DepotToHub>
-        <DepotToHubObjective>Connect the conveyor belts, to match the output of the depot to the remaining input of the hub.</DepotToHubObjective>
-        <Arrivals>Now passengers need a way to actually collect their luggage.
+        <DepotToHub>В первую очередь необходимо доставить багаж от депо к хабу.</DepotToHub>
+        <DepotToHubObjective>Соедините с помощью конвейерных лент выход депо и оставшийся вход хаба.</DepotToHubObjective>
+        <Arrivals>Теперь пассажирам необходимо забрать свой багаж.
 
-They collect these from baggage carousels, which need to be connected underground. It already comes with a ramp in the middle of it.</Arrivals>
-        <ArrivalsObjective>In the Baggage Claim zone, add a carousel, which is found in Utilities.</ArrivalsObjective>
-        <HubToCarousel>Finally, the luggage needs to get from the hub to the carousel!</HubToCarousel>
-        <HubToCarouselObjective>Connect the remaining out of the hub to the in of the carousel.</HubToCarouselObjective>
-        <FinaleTitle>Багажная система работает</FinaleTitle>
-        <Finale>Congratulations, you (assuming you didn't skip) have a working baggage system!</Finale>
+Они забирают его с багажной карусели, которая должна быть соединена с подземной системой. Для этого используется транспортёр в центре карусели.</Arrivals>
+        <ArrivalsObjective>В зоне выдачи багажа установите карусель, которую вы сможете найти в меню строительства в разделе "Инфрастуктура"</ArrivalsObjective>
+        <HubToCarousel>Наконец, багаж должен добраться от хаба до карусели!</HubToCarousel>
+        <HubToCarouselObjective>Соедините оставшийся выход хаба с каруселью.</HubToCarouselObjective>
+        <FinaleTitle>Система управления багажом работает</FinaleTitle>
+        <Finale>Поздравляем, у вас (при условии, что вы ничего не пропустили) работающая система управления багажом!</Finale>
     </Baggage>
     <FuelPA>
-        <IntroductionTitle>Система громкого оповещения и топливо</IntroductionTitle>
+        <IntroductionTitle>Оповещение и топливное обслуживание</IntroductionTitle>
         <Introduction>Welcome to the second advanced tutorial. This tutorial will help make your large airports operate better.
 
 PA systems help stop passengers and flight crew missing their flights, while fuel services will increase the interest of airlines!</Introduction>
