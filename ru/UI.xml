@@ -878,7 +878,7 @@
         <operations>
             <title>Панель управления аэропортом</title>
             <subheading>Тонкая настройка и управление аэропортом</subheading>
-            <description>Отрегулируйте параметры наземного транспорт, работу ВПП и топливного обеспечения.</description>
+            <description>Отрегулируйте параметры наземного транспорт, работу ВПП и топливного обслуживания.</description>
         </operations>
         <flight_schedule>
             <title>Управление рейсами</title>
@@ -1351,11 +1351,11 @@
             <FuelLevel>Уровень топлива</FuelLevel>
             <FuelLevelNetworked>Уровень топлива в системе</FuelLevelNetworked>
             <Inventory>Инвентарь</Inventory>
-            <GateBagOutdoors>Используются внешние багажные службы</GateBagOutdoors>
-            <GateBagIndoors>Используются багажные службы терминала</GateBagIndoors>
+            <GateBagOutdoors>Используется внешняя багажная система</GateBagOutdoors>
+            <GateBagIndoors>Используются багажная система терминала</GateBagIndoors>
             <ZoomForDetails>Приблизить для отображения сегодняшних подробностей полетов.</ZoomForDetails>
             <AssignedToDepot>Закреплено за пунктом погрузки({0} доступно)</AssignedToDepot>
-            <UnassignedToDepot>Не закреплено за пунктом погрузки багажа! ({0} доступно)</UnassignedToDepot>
+            <UnassignedToDepot>Не закреплено за багажным депо! ({0} доступно)</UnassignedToDepot>
             <TodaysFlights>Рейсы на сегодня</TodaysFlights>
             <NoneScheduled>Не запланировано</NoneScheduled>
             <OnStandby>В резерве с {0}</OnStandby>
@@ -1439,7 +1439,7 @@
             <FuelTankProximityWithSegment>Резервуар слишком далеко от дороги или рулежной дорожки и доступен транспорту только через другие объекты имеющегося подземного топливопровода.</FuelTankProximityWithSegment>
             <ReqConstructionComplete>Требуется завершения строительства.</ReqConstructionComplete>
             <ReqLongerRunway>ВПП слишком короткая для любых самолетов.</ReqLongerRunway>
-            <ReqFunctionalHangar>Требуется как минимум один ангар и автомобиль для перевозки багажа, соединенный дорогой или рулёжной дорожкой.</ReqFunctionalHangar>
+            <ReqFunctionalHangar>Требуется как минимум один ангар, соединенный дорогой или рулёжной дорожкой, и багажный кар.</ReqFunctionalHangar>
             <ReqFunctionalHangarWith>Требуется как минимум один ангар с {0}, соединенный дорогой или рулёжной дорожкой.</ReqFunctionalHangarWith>
             <ReqMaintenance>Требуется немедленное обслуживание.</ReqMaintenance>
             <ReqToolboxes>Рабочие не могут отремонтировать этот объект, т.к. в наличии нет ни одного ящика с инструментами.</ReqToolboxes>
@@ -1881,7 +1881,7 @@
         </Clear>
         <ClearUtilities>
             <name>Очистить инфраструктуру</name>
-            <description>Удаляет багажные конвейеры, топливные трубы и связанные с инфраструктурой объекты.</description>
+            <description>Удаляет конвейерные ленты, топливные трубы и связанные с инфраструктурой объекты.</description>
         </ClearUtilities>
         <Demolish>
             <name>Снести</name>
@@ -1901,7 +1901,7 @@
         </Foundation>
         <FuelPipe>
             <name><!-- inherited from material --></name>
-            <description>Соединяет строения топливной системы воедино подземными трубами.</description>
+            <description>Соединяет строения топливной сети воедино подземными трубами.</description>
         </FuelPipe>
         <Ramp>
             <name><!-- inherited from material --></name>
@@ -1933,7 +1933,7 @@
         </MovingWalkway>
         <DemolishUtility>
             <name>Снос инфраструктуры</name>
-            <description>Удаляет подземные багажные конвейеры и топливные трубы.</description>
+            <description>Удаляет подземные конвейерные ленты и топливные трубы.</description>
             <tt1>{0} конвейеров</tt1>
             <tt2>{0} топливных труб</tt2>
             <tt3>{0} объектов</tt3>
@@ -1947,11 +1947,11 @@
             <blue>СИНИЙ</blue>
             <pink>РОЗОВЫЙ</pink>
             <green>ЗЕЛЕНЫЙ</green>
-            <d0>Соединяет подземную багажную сеть и: Стойки регистрации, сортировочные станции, пункты перегрузки, багажные карусели</d0>
-            <d1>Обзор багажной сети</d1>
+            <d0>Соединяет подземную багажную систему и: Стойки регистрации, сортировочные хабы, багажные депо, багажные карусели</d0>
+            <d1>Обзор багажной системы</d1>
             <d2>Соединить {0} и {1}, а также {2} и {3}</d2>
             <d3>Соединить все объекты и сортировочные пункты</d3>
-            <d4>Возможно соединение нескольких пунктов сортировки багажа</d4>
+            <d4>Возможно соединение нескольких сортировочных хабов</d4>
             <d5>Соединить {0} и {1}, или {2} и {3}</d5>
             <d6>Правильные соединения пунктов сортировки: {0}</d6>
             <d7>Соединяет в обоих направлениях через одно подключение</d7>
@@ -2042,7 +2042,7 @@
         </LongerTrains>
         <FuelPorts>
             <name>Заправка на стоянках</name>
-            <row0>Позволяет размещать на стоянках заправочное оборудование, что позволяет быстрее заправлять самолеты.</row0>
+            <row0>Позволяет размещать на стоянках систему подачи топлива, что позволяет быстрее заправлять самолеты.</row0>
         </FuelPorts>
         <AdvTicketing>
             <name>Отдельные стойки регистрации</name>
@@ -2473,7 +2473,7 @@
         <Title>Нарушение контракта</Title>
         <FacilitiesLacking>Вы не выполнили договорные обязательства вовремя.</FacilitiesLacking>
         <FacilitiesFail>Вы не приняли договорные обязателства вовремя.</FacilitiesFail>
-        <FuelFail>Вы не достигли ожидаемого уровня удовлетворенности топливом авиакомпанией.</FuelFail>
+        <FuelFail>Вы не достигли ожидаемого уровня удовлетворенности топливным обслуживанием авиакомпанией.</FuelFail>
         <ReliabilityFail>Вы не достигли ожидаемого уровня удовлетворенности надежностью авиакомпанией.</ReliabilityFail>
         <TooFewFlights>У Авиакомпании в расписании слишком мало рейсов, чтобы продолжить сделку.</TooFewFlights>
         <PlayerTerminated>Вы расторгли договор.</PlayerTerminated>
@@ -2482,7 +2482,7 @@
         <CancelledShortly>Вы отменили согласованный рейс почти сразу после того, как он стал доступен.</CancelledShortly>
         <QuitNegotiations>Вы прекратили необходимые повторные переговоры с авиакомпанией.</QuitNegotiations>
         <ReliabilityWarning>Предупреждение, надежность обслуживания этой авиакомпании хуже, чем согласованная цель! У вас есть 12 часов, чтобы это исправить!</ReliabilityWarning>
-        <FuelWarning>Предупреждение, топливная удовлетворенность этой авиакомпании хуже, чем согласованная цель! У вас есть 12 часов, чтобы это исправить!</FuelWarning>
+        <FuelWarning>Предупреждение, удовлетворенность топливным обслуживанием этой авиакомпании хуже, чем согласованная цель! У вас есть 12 часов, чтобы это исправить!</FuelWarning>
     </Breaches>
     <AirlineOffers>
         <Gates>Только самолеты этой авиакомпании будут использовать назначенные гейты.</Gates>
@@ -2527,7 +2527,7 @@
     <AirlineNeeds>
         <Needs>Требования Авиакомпании</Needs>
         <Communication>Коммуникация</Communication>
-        <FuelFailures>Сбои топливного обеспечения</FuelFailures>
+        <FuelFailures>Сбои топливного обслуживания</FuelFailures>
         <FuelPrice>Цена топлива</FuelPrice>
         <LargeGate>Большие Гейты L</LargeGate>
         <ClassLounges>Зона отдыха первого класса</ClassLounges>
@@ -2551,8 +2551,8 @@
         <Cafes>Кафе</Cafes>
         <Stores>Магазины</Stores>
         <ConferenceRooms>Конференц-залы</ConferenceRooms>
-        <FuelSatisfaction>Удовлетворенность топливом</FuelSatisfaction>
-        <NegotiatedFuelSatisfaction>Договор об Удовлетворенности топливом</NegotiatedFuelSatisfaction>
+        <FuelSatisfaction>Удовлетворенность топливным обслуживанием</FuelSatisfaction>
+        <NegotiatedFuelSatisfaction>Договор об Удовлетворенности топливным обслуживанием</NegotiatedFuelSatisfaction>
         <MinPaxFlight>Минимальная загрузка рейса</MinPaxFlight>
         <CafeProfitShare>Доля прибыли с кафе</CafeProfitShare>
         <StoreProfitShare>Доля прибыли с магазинов</StoreProfitShare>
@@ -2620,7 +2620,7 @@
             <BAT2>
                 <Description>Функциональный терминал</Description>
                 <Objective1>Запуск аэропорта в течение 2 полных дней.</Objective1>
-                <Objective2>Построить 2 стойки самостоятельной регистрации и 3 обычных или XL информационных табло.</Objective2>
+                <Objective2>Построить 2 терминала самостоятельной регистрации и 3 обычных или XL информационных табло.</Objective2>
                 <Objective3>Назначьте не менее 5 рейсов в расписание.</Objective3>
             </BAT2>
             <PAX1>
