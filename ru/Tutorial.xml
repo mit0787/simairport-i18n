@@ -31,7 +31,7 @@
         <TutorialWindowObjective>Теперь переместите окно!</TutorialWindowObjective>
         <UserInterface>Текущая сложная симуляция проста для понимания, если Вы уделите немного времени осмотру пользовательского интерфейса.
 
-В верхней части - основная статистика, управление временем - в правом верхнем углу, различные инструменты для управления аэропортом - слева внизу и карты интенсивности - справа.
+В верхней части - основная статистика, управление временем - в правом верхнем углу, различные инструменты для управления аэропортом - слева внизу и тепловые карты - справа.
 
 Нажмите Esc чтобы закрыть любое активное окно (это не работает с окнами обучения).</UserInterface>
         <ConstructIntroTitle>Строительство сооружений</ConstructIntroTitle>
@@ -64,15 +64,15 @@
 
 Нажмите KeyboardFunctions.RotateObject или среднюю кнопку мыши для поворота объекта. Правый клик на размещенном объекте для отмены или удаления.</ProblemArcade>
         <ProblemArcadeObjective>Устраните проблемы с игровыми автоматами, чтобы они заработали!</ProblemArcadeObjective>
-        <EnvironmentTitle>Улучшение аэропорта, карты интенсивности</EnvironmentTitle>
+        <EnvironmentTitle>Улучшение аэропорта, тепловая карта</EnvironmentTitle>
         <Environment>Аэропорт может разочаровать пассажиров. Иногда достаточно небольшого дерева, чтобы это исправить!
 
 Декорации можно найти в меню строительства, в разделе Объекты > Декор. Также вы можете изменить дизайн пола!
 
-Вы можете использовать Карты интенсивности окружения, чтобы увидеть наиболее привлекательные области вашего аэропорта.</Environment>
-        <Decorate>Другие карты интенсивности также полезны.
+Вы можете использовать тепловую карту окружения, чтобы увидеть наиболее привлекательные области вашего аэропорта.</Environment>
+        <Decorate>Другие тепловые карты также полезны.
 
-Информационная карта интенсивности показывает места, где пассажиры могут узнать актуальную информацию о своих рейсах.
+Информационная тепловая карта показывает места, где пассажиры могут узнать актуальную информацию о своих рейсах.
 
 Размещайте информационные дисплеи и киоски, чтобы помочь пассажирам отслеживать рейсы, иначе они могут пропустить их.</Decorate>
         <PlaneStandsTitle>Исправление стоянки самолетов!</PlaneStandsTitle>
@@ -245,61 +245,61 @@
     </Baggage>
     <FuelPA>
         <IntroductionTitle>Оповещение и топливное обслуживание</IntroductionTitle>
-        <Introduction>Welcome to the second advanced tutorial. This tutorial will help make your large airports operate better.
+        <Introduction>Добро пожаловать во второй расширенный урок. Этот урок поможет улучшить работу Вашего крупного аэропорта.
 
-PA systems help stop passengers and flight crew missing their flights, while fuel services will increase the interest of airlines!</Introduction>
-        <PAInfoTitle>Система громкого оповещения</PAInfoTitle>
-        <PAInfo>Firstly, let's get a PA system working. Let's not lose high ratings on confused passengers.
+Системы оповещения позволяют избежать пропуск рейсов пассажирами и экипажами, а предоставление топливного обслуживания увеличивает привлекательность аэропорта для авиакомпаний!</Introduction>
+        <PAInfoTitle>Система оповещения</PAInfoTitle>
+        <PAInfo>Во-первых, необходимо запустить систему оповещения. Давайте не будем терять высокие рейтинги из-за заблудившихся пассажиров.
             
-The PA system is triggered twice during the boarding process. First, when the plane begins boarding. Then, it broadcasts a "last call" about 15-20 minutes before departing.</PAInfo>
-        <TechnologyTitle>Разблокировка системы громкого оповещения</TechnologyTitle>
-        <Technology>You need to research Technology in order to be able to hire a CTO (Chief Technology Officer) and unlock the PA systems.
+Система оповещения запускается дважды во время посадки: перед началом посадки в самолет и за 15-20 минут до вылета.</PAInfo>
+        <TechnologyTitle>Разблокировка системы оповещения</TechnologyTitle>
+        <Technology>Вам необходимо исследовать "Технологии" для того, чтобы нанять Технического директора (CTO) и разблокировать систему оповещения. 
 
-While you are waiting for it to research, you can build an office for your future CTO. During the tutorial, research is much faster than normal!</Technology>
-        <TechnologyObjective>Research Technology in the research screen.</TechnologyObjective>
-        <CTO>Once you have a CTO and an office, you will be able to unlock PA systems.</CTO>
-        <CTOObjective>Hire a CTO and make sure that they have an office.</CTOObjective>
-        <SpeakersTitle>Building the PA System</SpeakersTitle>
-        <Speakers>Speakers relay announcements across the terminal. Passengers need to be close to a speaker, and in the direction of a speaker, to hear it.
-        
-As you are placing them, use the PA Speakers heatmap to see the area that they affect.</Speakers>
-        <SpeakersObjective>Place at least 4 speakers in areas most likely to be visited by passengers. Use the PA Speakers heatmap to see coverage.</SpeakersObjective>
-        <Amplifier>PA Systems use amplifiers to connect the speakers to a central electrical system.
+Во время ожидания завершения исследования Вы можете построить офис для Вашего будущего Технического директора. Во время обучения исследования выполняются намного быстрее, чем обычно!</Technology>
+        <TechnologyObjective>Исследуйте технологии на эране Исследований.</TechnologyObjective>
+        <CTO>Как только у вас появится Технический директор с офисом, Вы сможете разблокировать систему оповещения.</CTO>
+        <CTOObjective>Наймите Технического директора и убедитесь, что у него есть офис.</CTOObjective>
+        <SpeakersTitle>Установка системы оповещения</SpeakersTitle>
+        <Speakers>Громкоговорители передают объявления в помещении терминала. Чтобы слышать их пассажиры должны находится в радиусе действия громкоговорителей.
 
-If you have more than 4 speakers or more than 4 gates, build a HD amplifier to handle the additional load.</Amplifier>
-        <AmplifierObjective>Drag an electrical zone room, and place an amplifier inside. Make sure it meets the requirements.</AmplifierObjective>
-        <Connect>You'll need to connect each speaker to the amplifier, by clicking on the amplifier, and selecting Connect To.
+После установки воспользуйтесь тепловой картой системы оповещения, чтобы увидеть её область действия.</Speakers>
+        <SpeakersObjective>Разместите не менее 4 громкоговорителей в местах, наиболее посещаемых пассажирами.Используйте тепловую карту, чтобы увидеть площадь покрытия.</SpeakersObjective>
+        <Amplifier>Системы оповещения используют усилители для подключения громкоговорителей к центральной электрической сети.
 
-At the moment, your PA system will be broadcasting nothing! You can assign up to four gates that you want it to broadcast information about, by clicking on the amplifier and assigning each one.</Connect>
-        <CompletedPATitle>Система снабжения топлива</CompletedPATitle>
-        <CompletedPA>Your PA system should now be working!
+Если у вас более 4 громкоговорителей или более 4 гейтов, используйте HD-усилитель для управления дополнительной нагрузкой.</Amplifier>
+        <AmplifierObjective>Постройте помещение с зоной "Электрощитовая" и разместите в ней усилитель. Убедитесь, что помещение соответствует требованиям.</AmplifierObjective>
+        <Connect>Вам необходимо подключить каждый громкоговоритель к усилителю, выбрав усилитель и нажав "Связать с".
 
-Теперь взглянем на систему снабжения топливом.
+На данный момент ваша система оповещения ничего не транслирует! Вы можете назначить до четырех гейтов, о которых будет передаваться информация, нажав на усилитель и связав каждый из них.</Connect>
+        <CompletedPATitle>Топливное обслуживание</CompletedPATitle>
+        <CompletedPA>Сейчас система оповещения работает без нареканий!
 
-Refueling planes helps your airport earn extra income, improve airline satisfaction ratings, and potentially get access to new contracts.</CompletedPA>
+Теперь взглянем на систему топливного обслуживания.
+
+Заправка самолетов помогает вашему аэропорту получать дополнительный доход, повышать рейтинг удовлетворенности авиакомпаний и получать доступ к новым контрактам.</CompletedPA>
         <FuelDepotTitle>Топливо</FuelDepotTitle>
-        <FuelDepot>Fuel is delivered once per day, to a depot where delivery trucks will deliver new fuel from outside of the airport.</FuelDepot>
-        <FuelDepotObjective>Build a fuel depot by the main road.</FuelDepotObjective>
-        <FuelTanks>Fuel is stored in fuel tanks. Large fuel tanks are available, but are very expensive. They need to be connected to the depot, and you can save on piping by building them close.
+        <FuelDepot>Топливо доставляется один раз в день на топливную станцию грузовиками из области за пределами аэропорта.</FuelDepot>
+        <FuelDepotObjective>Постройте топливную станцию у главной дороги.</FuelDepotObjective>
+        <FuelTanks>Топливо хранится в топливных резервуарах. Большие топливные резервуары очень дороги. Они должны быть подключены к топливной станции, и вы можете экономить на трубопроводе, построив их рядом.
 
-You can see which pipes have fuel if they are red (empty) or green (full/connected to depot).</FuelTanks>
-        <FuelTanksObjective>Build at least two regular fuel tanks и соедините их с depot.</FuelTanksObjective>
-        <RefuelingStationTitle>От хранилища к самолетом</RefuelingStationTitle>
-        <RefuelingStation>Trucks will drive along the taxiway to a refuel station to fill up.</RefuelingStation>
-        <RefuelingStationObjective>Build a refuel station next to the taxiway, and connect it to the rest of the fuel network with pipes.</RefuelingStationObjective>
-        <Transport>It's time to buy the trucks that will do the work. You'll need to build a hangar first, and buy the truck from the hangar's menu.</Transport>
-        <TransportObjective>Buy at least one fuel truck.</TransportObjective>
-        <BuyFuelTitle>The Business of Fuel</BuyFuelTitle>
-        <BuyFuel>Go to Operations, and click Fuel Services. You can buy fuel and sell it. If you keep an eye on the market price and are shrewd enough, you can make a profit dealing fuel!</BuyFuel>
-        <BuyFuelObjective>Buy at least 10000 fuel. You can purchase this once, or set it to auto-purchase every day.</BuyFuelObjective>
-        <Active>If you find that the status of fuel services is "Not Active", try hovering over it to see what problems there are.
+Вы можете видеть, какие трубы пустые (красные), а какие заполнены или подключены к станции (зеленые).</FuelTanks>
+        <FuelTanksObjective>Постройте как минимум два обычных топливных резервуара и соедините их с топливной станцией.</FuelTanksObjective>
+        <RefuelingStationTitle>От резервуара к самолетам</RefuelingStationTitle>
+        <RefuelingStation>Грузовики перевозят топливо по рулежной дорожке от заправочной станции.</RefuelingStation>
+        <RefuelingStationObjective>Постройте заправочную станцию рядом с рулежной дорожкой и соедините ее с остальной частью топливной сети трубами.</RefuelingStationObjective>
+        <Transport>Пришло время купить грузовик для выполнения поставленной задачи. Сначала нужно построить ангар и купить грузовик из меню ангара.</Transport>
+        <TransportObjective>Купите не менее одного топливозаправщика.</TransportObjective>
+        <BuyFuelTitle>Топливный бизнес</BuyFuelTitle>
+        <BuyFuel>Перейдите в меню Управления аэропортом и нажмите «Топливное обслуживание». Вы можете купить топливо или продать его. Если вы следите за рыночной ценой и достаточно проницательны, вы можете получить прибыль, торгуя топливом!</BuyFuel>
+        <BuyFuelObjective>Купите как минимум 10000 топлива. Вы можете приобрести его однократно или установить автоматическую покупку каждый день.</BuyFuelObjective>
+        <Active>Если вы обнаружите статус «Неактивен», попробуйте навести курсор, чтобы увидеть существующие проблемы.
 
-You will need to set a price scheme. Try each one; there is information below each one to help you choose which pricing method is better.</Active>
-        <MoreInfo>Make sure to scroll down the fuel services window to see more information.
+Вам нужно будет установить схему ценообразования. Попробуйте каждую. Для каждой из них приведена информация, которая поможет вам выбрать лучший метод ценообразования.</Active>
+        <MoreInfo>Обязательно прокрутите вниз окно топливного обслуживания, чтобы увидеть больше информации.
 
-In future, you may want to upgrade your aircraft gates to have fuel ports, which will more efficiently delivery fuel to your planes.</MoreInfo>
+В будущем Вы, возможно, захотите модернизировать гейт, разместив систему подачи топлива, что позволит более эффективно доставлять топливо к Вашим самолетам.</MoreInfo>
         <FinaleTitle>Системы работают!</FinaleTitle>
-        <Finale>You now have working PA and fuel systems!</Finale>
+        <Finale>Сейчас у Вас полностью работающие системы оповещения и топливного обслуживания.</Finale>
     </FuelPA>
     <Scheduling>
         <IntroductionTitle>Обучение: График работы персонала</IntroductionTitle>
