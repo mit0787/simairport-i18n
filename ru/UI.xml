@@ -686,7 +686,7 @@
                     <restriction_common>Внимание! Возможна отмена рейсов в случае, если гейт окажется недоступен после посадки на определенную полосу.</restriction_common>
                 </runways>
                 <fuel>
-                    <title>Топливное обеспечение</title>
+                    <title>Топливное обслуживание</title>
 
                     <!-- left side -->
                     <marketprice>Рыночная цена</marketprice>
@@ -1293,8 +1293,8 @@
         <!-- UISelectableObject -->
         <inspect>
             <Schedule>Расписание персонала</Schedule>
-            <AssignVehicles>Приписать транспорт...</AssignVehicles>
-            <ConnectTo>Соединить с...</ConnectTo>
+            <AssignVehicles>Добавить транспорт...</AssignVehicles>
+            <ConnectTo>Связать с...</ConnectTo>
             <Fire>Уволить: ({0})</Fire>
             <PaxTimings>Распределение времени пассажиров</PaxTimings>
             <PaxHighlight>Подсветка пассажиров</PaxHighlight>
@@ -1721,9 +1721,9 @@
             <FuelSell>Продажа топлива</FuelSell>
             <FuelStorageFee>Плата за хранение топлива</FuelStorageFee>
             <FuelDeliveryFee>Плата за доставку топлива</FuelDeliveryFee>
-            <Sell>Продано: {0}</Sell>
-            <Buy>Куплено: {0}</Buy>
-            <Refund>Возвращено: {0}</Refund>
+            <Sell>Продать: {0}</Sell>
+            <Buy>Купить</Buy>
+            <Refund>Вернуть: {0}</Refund>
             <Hire>Нанят: {0}</Hire>
             <Income>Доход</Income>
             <Cheat>Чит</Cheat>
@@ -2125,15 +2125,15 @@
         <tooltipDescription2>Настройте персоналу рабочее время. Экономьте деньги, когда они дома!</tooltipDescription2>
         <delete>Удалить</delete>
         <Rename>Переименовать</Rename>
-        <Duplicate>Скопировать персонал в...</Duplicate>
+        <Duplicate>Скопировать персонал в </Duplicate>
         <DuplicateTitle>Скопировать персонал из...</DuplicateTitle>
         <schedules>График</schedules>
-        <namingConfig>Имя графика:</namingConfig>
+        <namingConfig>Название смены:</namingConfig>
         <RenameButton>Переим.</RenameButton>
         <defaultDay>Дневная смена</defaultDay>
         <defaultNight>Ночная смена</defaultNight>
         <DeleteWarning>У вас должен быть хотя бы один график.</DeleteWarning>
-        <DeleteConfirmation>УДАЛИТЬ график?</DeleteConfirmation>
+        <DeleteConfirmation>Удалить смену?</DeleteConfirmation>
         <Create>Создание</Create>
         <DailyManagement>Найм персонала</DailyManagement>
         <Editing>Ред. график:</Editing>
@@ -2581,7 +2581,7 @@
         <NoBag>Без багажа.</NoBag>
         <CarryBag>Проверил сумку и несёт ее.</CarryBag>
         <NotCarryBag>Проверил сумку, но не несёт ее.</NotCarryBag>
-        <Persue>Идёт к</Persue>
+        <Persue>Следует к</Persue>
         <Idle>Ничего не делает</Idle>
     </PaxContexts>
     <Grants2019>
@@ -2745,7 +2745,7 @@
         <Edit>Ред. позицию</Edit>
         <Remove>Удалить точку</Remove>
         <AddAdvice>Начните добавлять патрули с помощью клавиши плюс!</AddAdvice>
-        <VectorAdvice>Нажмите на карту, чтобы начать добавлять путь патруля!</VectorAdvice>
+        <VectorAdvice>Нажмите на карту, чтобы добавить путь патруля!</VectorAdvice>
         <BoundToggle>Соглашаться только на работу в патруле</BoundToggle>
         <BoundTooltipHeading>Принятие работы</BoundTooltipHeading>
         <BoundTooltip>Если этот параметр включен, уборщики принимают задания только в областях, обозначенных синим цветом. Они могут по-прежнему покинуть этот район для выполнения определенных задач, таких как утилизация мешков для мусора.
