@@ -17,7 +17,7 @@
         <IntroductionTitle>Добро пожаловать в SimAirport!</IntroductionTitle>
         <Introduction>Это первый из простых учебных уроков. На всем протяжении будут доступны полезные изображения, открывающиеся по нажатию на синий значок информации со стрелкой.
 
-Аэропорт Новограда должен стать его воротами во внешний мир. В его небольшом терминале есть всё, что нужно: остановка транспорта, стойки регистрации, служба безопасности, зал вылета, (неисправный) выход на посадку и багажная система.
+Аэропорт города Learnyville должен стать его воротами во внешний мир. В его небольшом терминале есть всё, что нужно: остановка транспорта, стойки регистрации, служба безопасности, зал вылета, (неисправный) выход на посадку и багажная система.
 
 Проблема в том, что его постройка не завершена!</Introduction>
         <CameraMovement>Используйте кнопки WASD, стрелки или поместите курсор мыши рядом с краем экрана для перемещения камеры. Кроме того, можно нажать среднюю кнопку мыши и двигать курсор.
@@ -400,107 +400,109 @@
 Вы делаете это для увеличения прибыли... Точнее для того, чтобы сделать пассажиров счастливее.</StoresFinale>
     </FoodStores>
     <NeedsNegotiate>
-        <IntroductionTitle>Airline Needs and Negotiation Tutorial</IntroductionTitle>
-        <Introduction>Welcome to the Airline Needs and Negotiation tutorial!
+        <IntroductionTitle>Потребности авиалиний и переговоры</IntroductionTitle>
+        <Introduction>Добро пожаловать в урок по потребностям авиакомпаний и переговорам с ними!
         
-So far you've got a successful airport, with many happy passengers and lots of money rolling in. But how do you make your airlines happier, and squeeze more money out of them?
+До сих пор у вас был успешный аэропорт с множеством счастливых пассажиров и хорошим денежным потоком. Но как сделать Ваши авиалинии счастливее и выжать из них больше денег?
 
-Note: This tutorial is quite advanced, and most of what applies is only for medium and large airports.</Introduction>
-        <AirlinesTitle>Why is airline satisfaction important?</AirlinesTitle>
-        <Airlines>Airlines offer you flight schemas that you can assign to your gates within certain restricted times and gate sizes.
+Примечание: Это руководство - довольно продвинутое, и большая его часть применима только для средних и больших аэропортов.</Introduction>
+        <AirlinesTitle>Почему удовлетворенность важна?</AirlinesTitle>
+        <Airlines>Авиакомпании предлагают Вам схемы рейсов, которые Вы можете назначить Вашим гейтам с определёнными ограничениями по времени и размеру гейта.
         
-The more an airline is happy with your airport, the more flights they will offer you that you can earn revenue from. As long as you keep their other Needs met, you will be able to charge them higher prices. And you like money, don't you?</Airlines>
-        <DifferentNeedsTitle>Different Airline Needs</DifferentNeedsTitle>
-        <AirlineRepsTitle>Administrators and Sales Reps</AirlineRepsTitle>
-        <AirlineReps>While not working on research, your administrators can </AirlineReps>
-        <AirlineRepsObjective>Go to Airline Details view for Learnyville Air, click Select Rep, and then click Assign for them to represent the airline.</AirlineRepsObjective>
-        <AirlineExecutivesTitle>Airline Executives</AirlineExecutivesTitle>
-        <AirlineExecutives>Airline Executives are visitors who will come from the airlines to have meetings with the airline's reps. They cannot access areas blocked by staff doors.
-        
-Their satisfaction will affect the overall passenger satisfaction score, like regular passengers. Make sure the areas they stay in are decorated, and that they have access to food, drinks, toilets, and entertainment during breaks.</AirlineExecutives>
-        <Reception>All visitors must first visit a Reception desk. Only Airline visitors can pass it, so use reception zones to create borders where you want regular passengers to stop.
-        
-As you can see, an area has been highlighted in the entrance of the business center. This would be a good place for security to stop passengers going further!</Reception>
-        <ReceptionObjective>Add a functional Visitors Reception zone to the business center. The highlighted area is recommended.</ReceptionObjective>
-        <OfficesPeek>Remember you'll normally need to hire an extra security guard to work there. This tutorial already gives you one extra.
-        
-You should be able see some empty offices in the north business center. We will get to these later! Notice that each Sales Rep works in their own office in the same way that the Administrators do.</OfficesPeek>
-        <MoreReps>Having more than one rep can speed up the rate emails boost communication.
-        
-There is a limit to this effect, and you'll need to have meetings in order to reach the best communication levels. They take place around midday in a conference room, and are automatically scheduled by reps.</MoreReps>
-        <MoreRepsObjective>Zone and build a functioning Conference Room. Ideally this should be in the north business area.</MoreRepsObjective>
-        <CommercialPricingTitle>Commercial Pricing</CommercialPricingTitle>
-        <CommercialPricing>You can set the costs of runway and terminal fees in the Operations screen. This will impact the Fees need of the airline, with each airline having their own sensitivity to it.
-        
-An alternative to this is negotiations. Negotiations allow us to push for higher prices. We trade facilities and other promises in return.</CommercialPricing>
-        <RequirementsTitle>Negotiation Requirements</RequirementsTitle>
-        <Requirements>Negotiated deals are... a big deal! Airlines will require a good prior history with them before you can negotiate with them.
-        
-You can hover over the Negotiate button to find out what is missing. You'll need to accept some flights at least.</Requirements>
-        <RequirementsObjective>Go to Learnyville Air's detail viewer, fix the requirements, and then begin the negotiations.</RequirementsObjective>
-        <NegotiationsTitle>Negotiations</NegotiationsTitle>
-        <Negotiations>Because of what we trade back, you can charge airlines higher prices than normal without a hit to their satisfaction. However, you do need to make a good deal first!
-        
-In this screen, you can add additional planes and select a time slot for those planes to land in. This is useful if you need flights of a certain gate size or time slot.</Negotiations>
-        <NegotiationsObjective>Click Call to begin!</NegotiationsObjective>
-        <Wants>This is it! Now we are in round 1 of the negotiations. At the top you can see the current atmosphere score, which will become hot when there's a good deal and cold when the airline is less interested.
-        
-Below you can see what the airline wants for a variety of issues. Next to each want is the option to counter offer, by typing in a value or using the slider. You can make up to one non-negotiable if you really need a counter offer to stick.</Wants>
-        <PricingTitle>Different Pricing Schemes</PricingTitle>
-        <Pricing>There are four options for adjusting prices.
-        
-The breach penalty is simple: breach this contract and you'll pay this price!
-
-In the side panel to the right, there is a tab called Terms, which covers what will breach the contract.</Pricing>
-        <Pricing2>Terminal fees and runway fees replace the cost set in commercial prices.
-        
-Finally, there is the daily fee. This can be used as a supplementary cost to cover admin fees. For example, Sales Reps cost about $3000 a day to hire! With very large airlines, they may find it better to pay a single large daily fee rather than pay per flight and per passenger.</Pricing2>
-        <AtmosphereTitle>Atmosphere</AtmosphereTitle>
-        <Atmosphere>Let's experiment. First try to cool down the atmosphere! This will generally happen when you remove facilities and raise prices.</Atmosphere>
-        <AtmosphereObjective>Make the deal worse to score a low atmosphere.</AtmosphereObjective>
-        <HotDeal>Now let's heat things up! This time improve the deal by adding facilities and reducing prices.
-        
-Notice that for some facilities, above a point there is no effect on the score. Some airlines care less about certain facilities, and why would they want loads of what they don't like?</HotDeal>
-        <HotDealObjective>Make the atmosphere hotter!</HotDealObjective>
-        <BestDeal>On the right of the screen is three tabs, and a contextual pop up. When you are working on a specific issue, you can see more details about it. When you are not hovered over any issue, you can see a summary of the current deal, view the potential breach terms and conditions, and get some additional help.
-        
-We need to work on getting the best deal possible, but how do we do that?</BestDeal>
-        <BestAtmosphere>You could simply let the atmosphere enter the Good or Hot area, and then accept the deal. However, while that might strike you a quick deal, it certainly won't earn you the best deal!
-        
-Airlines will sometimes hide their true feelings about a deal, and try not to reveal how much they are truly willing to sacrifice. To really figure out the best atmosphere will require the confidence to push the airline down, using experimentation and patience.</BestAtmosphere>
-        <SendOfferTitle>Finishing Round 1</SendOfferTitle>
-        <SendOffer>Once you have found a good set of deals to compromise on, click Send Offer. They will get back to you once they have discussed it amongst themselves.</SendOffer>
-        <SendOfferObjective>Send them your counter offer!</SendOfferObjective>
-        <OutcomesTitle>Three Outcomes</OutcomesTitle>
-        <Outcomes>Let time pass and you will recieve one of these responses:
-        
-1) The airline accepted your offer.
-        
-2) The airline declined your offer.
-
-3) The airline wanted to negotiate further, and you are now onto the next stage of negotiating.</Outcomes>
-        <Overview>If they outright rejected your offer, it means that you set conditions so extreme that they could not work out a better deal from it!
+Чем больше авиакомпания довольна вашим аэропортом, тем больше рейсов она Вам предложит, и тем больше окажется доход. До тех пор, пока Вы будете удовлетворять их другие потребности, Вы сможете взимать с них более высокие цены. А Вам ведь нравятся деньги?</Airlines>
+        <DifferentNeedsTitle>Различные потребности авиалиний</DifferentNeedsTitle>
+        <DifferentNeeds>Доверие - это общее представление о ваших отношениях с авиакомпанией. Медленно восстанавливается, если Вы нарушаете соглашения, плохо общаетесь, и может быть затронуто другими потребностями.
             
-Whichever way it went, let's assume they want to rengoatiate. You will see an overview screen, as shown in the image pop-out. This will compare their new counter offers to yours, and will help you determine how the deal is going. You would then continue onto Round 2, and continue the negotiation process as normal until it is over.</Overview>
-        <EndingTitle>After Negotiations</EndingTitle>
-        <Ending>Once finished, the airline will start demanding that you give them their facilities. You'll need to build or zone new facilities if you do not have any!
+Другие потребности довольно просты и объясняются в окне сведений об авиакомпании. Это коммерческие сборы, коммуникация, удовлетворенность топливным обслуживанием, удовлетворенность пассажиров и надежность обслуживания.</DifferentNeeds>
+        <AirlineRepsTitle>Администраторы и торговые представители</AirlineRepsTitle>
+        <AirlineReps>Торговый представитель поддерживает связь с авиакомпанией, что положительно сказывается на коммуникации. Но имеет лишь ограниченный эффект.
         
-In the Airline Details view at the bottom, you can see the current deal and what is missing. In the Airline Needs section, you'll see the Facilities need. This will get worse the longer you take to give them their facilities!</Ending>
-        <Assigning>To assign them facilities, click on it and select Assign Airline Exclusivity. Only airlines that are missing facilities will be listed here.
+Не занимаясь исследованиями, ваши администраторы могут работать в качестве торговых представителей, если они приписаны к авиакомпании. Если нет, то они выберут авиакомпанию случайно.</AirlineReps>
+        <AirlineRepsObjective>Нажмите на Learnyville Air, чтобы перейти к сведениям об авиакомпании, нажмите кнопку Выбор представителя, а затем - кнопку Назначить, чтобы они стали представителями авиакомпании.</AirlineRepsObjective>
+        <AirlineExecutivesTitle>Руководители авиакомпаний</AirlineExecutivesTitle>
+        <AirlineExecutives>Руководители авиакомпаний - это посетители, которые приезжают для встреч с представителями авиакомпаний. Они не могут попасть в области, заблокированные дверями для персонала.
         
-Be careful with gates! Only that airline's planes can land at them! Check the flight scheduler if any planes can no longer use that gate - they will turn red.</Assigning>
-        <AssigningObjective>Assign all missing facilities. Use the Airline Details viewer to check what is missing.</AssigningObjective>
-        <RoomScores>You should see a new need called Facility Quality. Each zone has a zone evaluation associated with it, and when you assign a zone to an airline they will take into account how good the zone is.
+Их удовлетворенность будет влиять на общую оценку удовлетворенности пассажиров, как и у обычных пассажиров. Убедитесь, что места, в которых они находятся, декорированы, и что у них есть доступ к еде, напиткам, туалетам и развлечениям во время перерывов.</AirlineExecutives>
+        <Reception>Все посетители должны пройти через ресепшн. Проходить его могут только посетители авиакомпаний, поэтому используйте приёмную зону для создания границ, куда не смогут пройти обычные пассажиры.
         
-You can click on a negotiable zone to see it's overall score and score breakdowns. It includes the environment, zone size, ease of access, and more!</RoomScores>
-        <OfficesTitle>Offices</OfficesTitle>
-        <Offices>You may have given them offices. These will be used by Airline Executives who work during the morning and afternoon. They too have needs, like the conference room users, and will try to sort them out during breaks.
+Как Вы могли увидеть, на входе в бизнес-центр выделена зона. Это отличное место для размещения приёмной.</Reception>
+        <ReceptionObjective>Добавьте функционирующую приёмную зону в бизнес-центре. Рекомендуется использовать выделенную область. </ReceptionObjective>
+        <OfficesPeek>Помните, что вам обычно нужно нанять дополнительного сотрудника СБ для работы на ресепшене. В этом уроке Вам уже предоставлен один дополнительный сотрудник.
         
-As such, they will impact your overall satisfaction if they are unhappy! This is where a large business center with many facilities is necessary. Remember, you can profit off of them using certain facilities!</Offices>
-        <FinishedTitle>That's it!</FinishedTitle>
-        <Finished>You have learned more about airline needs, interest, sales reps, conference rooms, negotiations, and negotiated facilities!</Finished>
-        <DifferentNeeds>Trust is an overall representation of your relationship with the airline. It is slow to heal if you breach a negotiated deal, have poor communication, and can be affected by other poor needs too. This has a great impact on their overall satisfaction.
+Вы можете видеть несколько пустых помещений в северной части бизнес-центра. Мы вернёмся к ним позже! Обратите внимание, что торговые представители работают в отдельных офисах, также как и администрация аэропорта.</OfficesPeek>
+        <MoreReps>Наличие более одного представителя может ускорить обмен электронными сообщениями.
+        
+Но этому есть предел , и вам нужно будет проводить встречи, чтобы достичь наилучшего уровня коммуникации. Они проводятся около полудня в конференц-зале и автоматически планируются представителями.</MoreReps>
+        <MoreRepsObjective>Разметьте зону и постройте функционирующий конференц-зал. В идеале он должен быть в северной части бизнес-центра.</MoreRepsObjective>
+        <CommercialPricingTitle>Коммерческие сборы</CommercialPricingTitle>
+        <CommercialPricing>Вы можете установить цены на использование ВПП и терминала в панели управления аэропортом. Цены влияют на показатель удовлетворённости коммерческими сборами, каждая авиакомпания по-своему чувствительна к данному показателю.
+        
+Альтернативой этому являются переговоры. Переговоры позволяют добиться повышения цен. Взамен Вы предлагаете различные услуги и условия.</CommercialPricing>
+        <RequirementsTitle>Требования к переговорам</RequirementsTitle>
+        <Requirements>Переговоры - это... большое дело! Авиакомпаниям нужна хорошая история отношений с Вами, прежде чем Вы сможете вести с ними переговоры.
+        
+Наведите курсор на кнопку «Переговоры», чтобы узнать, чего не хватает. Вам нужно будет принять хотя бы несколько рейсов.</Requirements>
+        <RequirementsObjective>Перейдите к Сведениям об авиакомпании Learnyville Air, удовлетворите требования и затем начните переговоры.</RequirementsObjective>
+        <NegotiationsTitle>Переговоры</NegotiationsTitle>
+        <Negotiations>Поскольку это обратная продажа, Вы можете взимать с авиакомпаний более высокие цены, чем обычно, без ущерба для их удовлетворённости.
+        
+На этом экране вы можете добавить дополнительные самолеты и выбрать временной интервал для посадки этих самолетов. Это полезно, если вам нужны рейсы с определенным временным интервалом или под определённый размер гейта.</Negotiations>
+        <NegotiationsObjective>Нажмите Вызов для начала переговоров!</NegotiationsObjective>
+        <Wants>Вот так! Начался первый раунд переговоров. Вверху вы можете увидеть текущий уровень климата, который улучшается, если сделка хорошая, и ухудшается, если интерес авиакомпании падает.
+        
+Ниже вы можете увидеть пожелания авиакомпании в различных вопросах. Рядом с каждым пожеланием есть опция для изменения предложения, путём ввода значения или с помощью ползунка. Одно предложение можно сделать неизменяемым, если Вам нужно встречное предложение.</Wants>
+        <PricingTitle>Схемы ценообразования</PricingTitle>
+        <Pricing>Есть четыре варианта корректировки цен.
+        
+Штраф за нарушение: нарушите контракт и заплатите эту цену!
+
+На боковой панели справа есть вкладка «Нарушения», в которой указаны условия нарушения договора.</Pricing>
+        <Pricing2>Сборы за использование ВПП и терминала заменяют стоимость, указанную в коммерческих сборах.
+        
+Наконец, это дневной сбор. Может быть назначен в качестве дополнительной суммы для покрытия административных расходов. Например, за представителей, которые стоят около $3000 в день! Очень крупным авиакомпаниям выгоднее оплачивать дневные сборы, чем суммы за каждый рейс и каждого пассажира.</Pricing2>
+        <AtmosphereTitle>Климат</AtmosphereTitle>
+        <Atmosphere>Давайте поэкспериментируем. Сначала попытайтесь ухудшить климат! Обычно это происходит, когда вы убираете услуги и повышаете цены.</Atmosphere>
+        <AtmosphereObjective>Сделайте условия сделки менее выгодными для ухудшения климата.</AtmosphereObjective>
+        <HotDeal>А теперь давайте поддадим жару. На этот раз улучшите условия сделки, добавив услуги и снизив цены.
+        
+Обратите внимание, что некоторые услуги не оказывают никакого влияния на счёт выше определённой точки. Некоторые авиакомпании не заботят некоторые услуги. И почему они не хотят получить массу того, что им не нравится?</HotDeal>
+        <HotDealObjective>Улучшите климат.</HotDealObjective>
+        <BestDeal>Справа на экране находятся вкладки и контекстное всплывающее окно. Когда Вы работаете над конкретной проблемой, можете увидеть более подробную информацию о ней. Если Вас не беспокоит какая-либо проблема, Вы можете просмотреть сводную информацию о текущей сделке, просмотреть условия нарушения и получить дополнительную помощь.
+        
+Вам нужно работать над получением наилучшей сделки, но как это сделать?</BestDeal>
+        <BestAtmosphere>Вы можете просто позволить климату войти в необходимую зону, а затем принять сделку. Однако, хотя это и позволит заключить сделку быстро, это, безусловно, не принесёт вам выгоды!
+        
+Авиакомпании иногда скрывают своё истинное отношение к сделке и стараются не раскрывать, сколько они действительно готовы пожертвовать. Чтобы по-настоящему определить уровень климата, потребуется уверенность, чтобы подтолкнуть авиакомпанию, экспериментируя и проявляя терпение.</BestAtmosphere>
+        <SendOfferTitle>Завершение 1го раунда</SendOfferTitle>
+        <SendOffer>Определив выгодный набор условий нажмите Отправить предложение. Они свяжутся с вами, как только обсудят условия между собой.</SendOffer>
+        <SendOfferObjective>Отправьте им встречное предложение!</SendOfferObjective>
+        <OutcomesTitle>Три результата</OutcomesTitle>
+        <Outcomes>Через некоторое время Вы получите один из трёх ответов:
+        
+1) Авиакомпания приняла ваше предложение.
+        
+2) Авиакомпания отклонила ваше предложение.
+
+3) Авиакомпания хочет продолжить переговоры, и теперь Вы переходите к следующему этапу переговоров.</Outcomes>
+        <Overview>Если они отклонили ваше предложение, это означает, что вы поставили настолько экстремальные условия, при которых они не смогут получить выгоду!
             
-The other needs are quite simple and are explained in the Airline Details view. They are: Commercial Fees, Communication, Fuel Satisfaction, Passenger Satisfaction, and Service Reliability.</DifferentNeeds>
+Как бы то ни было, предположим, что они хотят продолжить переговоры. Вы увидите обзорный экран, как показано на изображении справа в . В нём приводится сравнение новых предложений с Вашими и помогает определить, как протекает сделка.</Overview>
+        <EndingTitle>После переговоров</EndingTitle>
+        <Ending>После завершения переговоров авиакомпания начнет требовать предоставления им Ваших услуг. Вам нужно будет построить или зонировать новые объекты, если у вас их нет!
+        
+В Сведениях об авиакомпании внизу вы можете увидеть текущую сделку и то, чего не хватает. В разделе Потребности авиакомпании вы увидите необходимые услуги. Показатели будут ухудшаться, если вы будете откладывать выполнение условий!</Ending>
+        <Assigning>Чтобы предоставить им объект, выберите его и нажмите Предоставить авиакомпании. Здесь будут отображаться только авиакомпании, которым не предоставлены объекты.
+        
+Будьте осторожны с гейтами! Только самолеты указанной авиакомпании могут воспользоваться ими! Проверьте расписание рейсов, если какие-либо самолеты не могут использовать эти гейты - они станут красными.</Assigning>
+        <AssigningObjective>Предоставьте авиакомпании недостающие объектам. Используйте сведения об авиакомпании, чтобы проверить, чего не хватает.</AssigningObjective>
+        <RoomScores>Вы должны увидеть новую потребность под названием Качество объектов. Каждая зона имеет оценку, которая учитывается, когда вы предоставляете объект авиакомпании.
+        
+Вы можете щелкнуть на зоне, чтобы увидеть общую оценку и разбивку по баллам. Она включает в себя обстановку, размер зоны, простоту доступа и многое другое!</RoomScores>
+        <OfficesTitle>Офисы</OfficesTitle>
+        <Offices>Вы можете предоставить руководителям  авиакомпаний офисы, которые они будут использовать утром и днём. У них есть такие же потребности, как и у тех, кто использует конференц-залы, и они будут разбираться с ними во время перерывов.
+        
+Таким образом они будут влиять на общий уровень удовлетворённости, если они недовольны! Вам понадобиться большой бизнес-центр со множеством удобств. Помните, что вы можете получить прибыль, используя определенные средства!</Offices>
+        <FinishedTitle>Вот и всё!</FinishedTitle>
+        <Finished>Вы получили знания о потребностях авиакомпаний, их интересах, торговых представителях, конференц-залах, переговорах и договорных условиях!</Finished>
     </NeedsNegotiate>
 </Tutorial>
